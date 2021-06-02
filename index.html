@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<!-----for mobo website----->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Bootstrap 4 Website Layout</title>
+		<!--bootstrape css file from bootstrape 4-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		<!--latest version de Jquery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<!--latest version de PopperJs-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+		<!--latest version de bootstrapeJs-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		<!--latest version de fontawsome to use social media icons-->
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+		<!--locale css file-->
+	<link href="Css/style.css" rel="stylesheet">
+</head>
+<body>
+		<!--Navigation-->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<div class="container-fluid">
+		<!--adding logo-->
+		<a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+		<!--navigation button-->
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+		data-target="#navvbarResponsive">
+				<!--adding icon-->
+		<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<!-- ml-auto puch navigation full size to the right-->
+			<!--adding menu-->
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Srvices</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Team</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Contact</a>
+				</li>
+							</ul>
+		</div>
+	</div>
+</nav>
+
+			<!--Images slider-->
+	<div id="slides" class="carousel slide" data-ride="carousel">
+			<!--carousel indicateurs-->
+			<ul class="carousel-indicators">
+				<li data-target="#slides" data-slide-to="0" class="active"></li>
+				<li data-target="#slides" data-slide-to="1"></li>
+				<li data-target="#slides" data-slide-to="2"></li>
+			</ul>
+			<!--adding carousel images-->
+	<div class="carousel-inner">		
+			<div class="carousel-item active">
+				<img src="img/background.png">
+				<!--write on top of the images-->
+				<div class="carousel-caption">
+					<h1 class="display-2">Bootstrap</h1>
+					<h3>Complete Website layout</h3>
+					<button type="button" class="btn btn-outline-light btn-lg">View demo</button>
+					<button type="button" class="btn btn-primary btn-lg">GET Started
+					</button>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="img/background2.png">
+			</div>
+			<div class="carousel-item">
+				<img src="img/background3.png">
+			</div>
+	</div> 
+	</div>		
+	<!--JumboTrone-->
+	<div class="container-fluid">
+	<div class="row jumbotron">
+		<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+			<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+			<a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">Web Hosting</button></a>
+		</div>
+	</div>
+    </div>
+    <!--Welcome section-->
+    <div class="container-fluid padding">
+    <div class="row welcome text-center">
+    	<div class="col-12">
+    		<h1 class="display-4">Build with ease</h1>
+    	</div>
+    	<hr>
+    	<div class="col-12">
+    		<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    	</div>
+    </div>
+    </div>
+    <!--three colum section-->
+    <div class="container-fluid padding">
+    <div class="row text-center padding">
+    	<div class="col-xs-12 col-sm-6 col-md-4">
+    		<i class="fab fa-aws"></i>
+    		<h3>AWS</h3>
+    		<p>When my six o’clock alarm buzzes, I require a pot of good java</p>
+    	</div>
+    	<div class="col-xs-12 col-sm-6 col-md-4">
+    		<i class="fas fa-bahai"></i>
+    		<h3>AWS</h3>
+    		<p>When my six o’clock alarm buzzes, I require a pot of good java</p>
+    	</div>
+    	<div class="col-12 col-md-4">
+    		<i class="fab fa-amilia"></i>
+    		<h3>AWS</h3>
+    		<p>When my six o’clock alarm buzzes, I require a pot of good java</p>
+    	</div>
+    </div>
+    <hr class="my-4">
+    </div> 
+    <!--two colum section-->
+    <div class="container-fluid padding">
+    <div class="row padding">
+    	<div class="col-md-12 col-lg-6">
+    		<h2>If you buildet</h2>
+    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
+    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    		<a href="#" class="btn btn-primary">Learn more</a>
+    	</div>
+    	<div class="col-lg-6">
+    		<img src="img/desk.png" class="img-fluid">
+    </div>
+	</div>
+	    <hr class="my-4">
+	<!--Fixed background-->
+	<figure>
+		<div class="fixed-wrap">
+			<div id="fixed">
+				
+			</div>
+		</div>
+	</figure>
+	<!--hiden emoj section-->
+	<button class="fun" data-toggle="collapse" data-target="#emoji">Click for fun
+	</button>
+	<div id="emoji" class="collapse">
+	<div class="container-fluid padding">
+	<div class="row text-center">
+		<div class="col-sm-6 col-md-3">
+			<img src="img/gif/panda.gif" class="gif">
+		</div>	
+		<div class="col-sm-6 col-md-3">
+			<img src="img/gif/unicorn.gif" class="gif">
+		</div>	
+		<div class="col-sm-6 col-md-3">
+			<img src="img/gif/poo.gif" class="gif">
+		</div>	
+		<div class="col-sm-6 col-md-3">
+			<img src="img/gif/chicken.gif" class="gif">
+		</div>	
+
+	</div>
+	</div>
+	</div>
+	<!--Meeet the team section-->
+	<div class="container-fluid padding">
+    <div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4">Meet the team</h1>
+		</div>	
+	</div>
+	</div>
+	<hr class="my-1">
+	<!--Cards section-->
+	<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-md-4"> 
+			<div class="card">
+				<img src="img/team1.png" class="card-img-top">
+				<div class="card-body">
+					<h4 class="card-title text-center">Hmadi Chalbi</h4>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<a href="#" class="btn btn-outline-secondary">See profile</a>
+				</div>
+
+			</div>
+
+		</div>
+		<div class="col-md-4"> 
+			<div class="card">
+				<img src="img/team2.png" class="card-img-top">
+				<div class="card-body">
+					<h4 class="card-title text-center">Hmadi Chalbi</h4>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<a href="#" class="btn btn-outline-secondary">See profile</a>
+				</div>
+				
+			</div>
+
+		</div>
+		<div class="col-md-4"> 
+			<div class="card">
+				<img src="img/team3.png" class="card-img-top">
+				<div class="card-body">
+					<h4 class="card-title text-center">Hmadi Chalbi</h4>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<a href="#" class="btn btn-outline-secondary">See profile</a>
+				</div>
+				
+			</div>
+
+		</div>
+	</div>
+	</div>	
+	<!--Two colum section-->
+	<div class="container-fluid padding">
+    <div class="row padding">
+    	<div class="col-md-12 col-lg-6">
+    		<h2>Our Philosify</h2>
+    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed </p>
+    	</div>
+    	<div class="col-lg-6">
+    		<img src="img/bootstrap2.png" class="img-fluid">
+    </div>
+    <hr class="my-4">
+	</div>
+	<hr class="my-4"> 
+	<!--Social media icon section-->
+	<div class="container-fluid padding">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h2>Connect</h2>
+		</div>
+		<div class="col-12 social padding ">
+			<a href="#"><i class="fab fa-facebook"></i></a>
+			<a href="#"><i class="fab fa-youtube"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-google-plus-g"></i></a>
+			<a href="#"><i class="fab fa-twitter"></i></a>
+		
+		</div>	
+	</div>
+	</div>
+	<!--adding footer-->
+<footer>
+	<div class="container-fluid padding">
+	<div class="row text-center padding">
+		<div class="col-md-4">
+			<img src="img/w3newbie.png">
+			<hr class="light">
+			<p>216 50 789 467</p>
+			<p>hamdichalbi28@gmail.com</p>
+			<p>16 cite Ennasim</p>
+			<p>Ariana , 2073</p>
+		</div>
+		<div class="col-md-4">
+			<hr class="light">
+			<h2>Working Plan</h2>
+			<hr class="light">
+			<p>Mondey</p>
+			<p>tuesday</p>
+			<p>friday</p>
+			<p>Sunday</p>
+		</div>
+		<div class="col-md-4">
+			<hr class="light">
+			<h2>Service Aria</h2>
+			<hr class="light">
+			<p>Ariana ,2073</p>
+			<p>Bizert ,2072</p>
+			<p>Sfax ,2071</p>
+			<p>Tozeur ,2070</p>
+		</div>
+		<div class="col-12">
+			<hr class="light">
+		<p>WWWW.Hamdi@chalbi.com</p>	
+		</div>
+		</div>
+	</div>
+	</div>
+</footer>
+</body>
+</html>
